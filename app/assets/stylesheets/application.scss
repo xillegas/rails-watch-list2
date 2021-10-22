@@ -11,3 +11,8 @@
 // Your CSS partials
 @import "components/index";
 @import "pages/index";
+
+// No soportaba esto sin margen
+body {
+  margin: 50px;
+}

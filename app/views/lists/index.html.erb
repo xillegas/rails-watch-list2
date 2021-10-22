@@ -1,0 +1,15 @@
+<h2> indice de listas </h2>
+
+<ol>
+<% @lists.each do |list| %>
+  <li>
+  <%# list.name %>
+    <%= link_to list.name, list_path(list.id) %>
+  </li>
+<% end %>
+</ol>
+<br>
+<%= link_to "+ Nueva lista", lists_new_path %>
+<%# pe = <%=  %>
+
+<%# er = <%  %>
